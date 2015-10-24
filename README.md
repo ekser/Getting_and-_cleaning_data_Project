@@ -37,6 +37,8 @@ of each variable for each activity and each subject.
 
 ## Explanation of the files
 
-- run_analysis.r : The R script that was used on the given data in order to produce a tidy dataset
-- CodeBook.md : It provides information on the variables in the tidy dataset
-- tidy_data.txt : The output produced (a data set with the average of each variable for each activity and each subject.
+- run_analysis.r : The R script that was used on the original given data in order to produce a tidy dataset. Someone should run
+this code in the directory where Samsung data is saved.
+- CodeBook.md : It provides information on the original data and the variables in the tidy dataset. It expalains what procedure 
+was followed in run_analysis.r in order to obtain the tidy_data.txt from the original given data.
+- tidy_data.txt : The output produced (a data set with the average of each variable for each activity and each subject).
