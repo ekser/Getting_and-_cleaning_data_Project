@@ -51,27 +51,27 @@ STANDING-5, LAYING-6)
 They are in total 33 measurements (including the 3 dimensions - the X,Y, and Z axes).
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-time.BodyAccelerometer-XYZ
-time.GravityAccelerometer-XYZ
-time.BodyAccelerometerJerk-XYZ
-time.BodyGyroscopic-XYZ
-time.BodyGyroscopicJerk-XYZ
-time.BodyAccelerometerMagnitude
-time.GravityAccelerometerMagnitude
-time.BodyAccelerometerJerkMagnitude
-time.BodyGyroscopicMagnitude
-time.BodyGyroscopicJerkMagnitude
-frec.BodyAccelerometer-XYZ
-frec.BodyAccelerometerJerk-XYZ
-frec.BodyGyroscopic-XYZ
-frec.BodyAccelerometerMagnitude
-frec.BodyAccelerometerJerkMagnitude
-frec.BodyGyroscopicMagnitude
-frec.BodyGyroscopicJerkMagnitude
+- time.BodyAccelerometer-XYZ
+- time.GravityAccelerometer-XYZ
+- time.BodyAccelerometerJerk-XYZ
+- time.BodyGyroscopic-XYZ
+- time.BodyGyroscopicJerk-XYZ
+- time.BodyAccelerometerMagnitude
+- time.GravityAccelerometerMagnitude
+- time.BodyAccelerometerJerkMagnitude
+- time.BodyGyroscopicMagnitude
+- time.BodyGyroscopicJerkMagnitude
+- frec.BodyAccelerometer-XYZ
+- frec.BodyAccelerometerJerk-XYZ
+- frec.BodyGyroscopic-XYZ
+- frec.BodyAccelerometerMagnitude
+- frec.BodyAccelerometerJerkMagnitude
+- frec.BodyGyroscopicMagnitude
+- frec.BodyGyroscopicJerkMagnitude
 
 The set of variables that were estimated from these signals are: 
 
-MEAN(): Mean value of a measurement 
-SD(): Standard deviation of a measurement 
+- MEAN(): Mean value of a measurement 
+- SD(): Standard deviation of a measurement 
 
 The Tidy Dataset contains for each measurement the average of each variable(MEAN, SD) for each activity and each subject.
